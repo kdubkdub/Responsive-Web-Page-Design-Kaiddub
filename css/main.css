@@ -46,6 +46,7 @@
 .content {
   padding: 14px;
   font-size: 22px;
+  color: white; /* Add color to make text readable over the video */
 }
 
 /* When the screen is less than 800 pixels wide */
