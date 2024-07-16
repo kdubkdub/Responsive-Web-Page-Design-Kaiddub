@@ -17,13 +17,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #f1f1f1;
+  background-color: #FF0000;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #e0e0e0;
+  background-color: #000000;
   color: black;
 }
 
