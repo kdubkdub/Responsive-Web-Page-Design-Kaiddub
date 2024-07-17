@@ -49,6 +49,31 @@
   color: white; /* Ensure text is readable over the video */
 }
 
+/* Style for the summarizing table */
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.summary-table th, .summary-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.summary-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.summary-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
 /* When the screen is less than 800 pixels wide */
 @media screen and (max-width: 800px) {
   /* Hide all links, except for the selected tab */
