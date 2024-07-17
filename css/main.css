@@ -10,7 +10,7 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(256, 256, 256, 0.8);
+  background-color: rgb(256, 256, 256);
   overflow: hidden;
 }
 
