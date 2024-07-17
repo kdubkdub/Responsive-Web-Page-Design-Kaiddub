@@ -74,6 +74,52 @@
   color: white;
 }
 
+/* Style for the login form */
+.login-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h3 {
+  text-align: center;
+  color: #333;
+}
+
+.login-form .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.login-form input[type=text], .login-form input[type=password] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
 /* When the screen is less than 800 pixels wide */
 @media screen and (max-width: 800px) {
   /* Hide all links, except for the selected tab */
